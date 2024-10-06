@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+
+<?php
+
+require_once __DIR__ . '/../../vendor/autoload.php';
+
+$rawConfig = file_get_contents(__DIR__ . '/../../principles.json');
+$config = json_decode($rawConfig, true);
+
+$validator = new Principles\EnvValidator($config);
+
+$validator->validate();
+
+if ($validator->fails()) {
+    echo "Failed while validating .env file";
+    die(1);
+}
+
+echo "Validation successful";
+die(0);
