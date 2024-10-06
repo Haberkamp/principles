@@ -115,4 +115,7 @@ fabric.properties
 # .env file
 .env
 
+# Principles configuration
+principles.json
+
 # End of https://www.toptal.com/developers/gitignore/api/composer,phpunit,phpstorm+all
