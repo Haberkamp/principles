@@ -15,7 +15,7 @@
       "Principles\\Tests\\": "tests/"
     }
   },
-  "bin": "./src/bin/validate",
+  "bin": "./src/bin/principles",
   "minimum-stability": "dev",
   "require-dev": {
     "phpunit/phpunit": "^11.2",
