@@ -112,4 +112,7 @@ fabric.properties
 # Build data
 /build/
 
+# .env file
+.env
+
 # End of https://www.toptal.com/developers/gitignore/api/composer,phpunit,phpstorm+all
