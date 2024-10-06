@@ -10,11 +10,6 @@
       "Principles\\": "src/"
     }
   },
-  "autoload-dev": {
-    "psr-4": {
-      "Principles\\Tests\\": "tests/"
-    }
-  },
   "bin": "./src/bin/principles",
   "minimum-stability": "dev",
   "require-dev": {
