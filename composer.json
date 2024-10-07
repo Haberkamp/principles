@@ -1,7 +1,7 @@
 {
   "name": "principles/principles",
   "description": "Validate your env variables.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "library",
   "license": "MIT",
   "author": "Nils Haberkamp",
